@@ -1,0 +1,32 @@
+.car-details {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -10px; 
+}
+
+
+.car-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.car-details ul {
+  padding: 0;
+  list-style: none;
+}
+
+.car-details .list-group-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

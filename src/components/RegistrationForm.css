@@ -1,0 +1,90 @@
+.registration-container {
+  background: whitesmoke;
+  padding: 50px;
+  border-radius: 10px;
+  width: 800px;
+  height: 900px;
+  margin: 120px auto;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: green;
+}
+
+h2 {
+  text-align: center;
+  color: green; 
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.form-group input {
+  width: 60%; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: none;
+  border-bottom: 1px solid blue; 
+  outline: none;
+  background-color: transparent;
+  color: green; 
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.center-button {
+  text-align: center;
+  border-radius: 30px;
+  
+}
+
+button {
+ 
+  
+  width: 35%;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  background-color: green;
+  margin-top: 20px;
+  color: whitesmoke;
+  transition: background 0.3s;
+  cursor: pointer;
+ 
+}
+
+button:hover {
+  background-color: blue;
+}
+
+@media screen and (max-width: 768px) {
+  .registration-container {
+      padding: 30px; 
+      width: 90%; 
+      height: auto; 
+  }
+
+  .form-group input {
+      width: calc(100% - 20px); 
+      padding: 8px; 
+  }
+
+  button {
+      width: calc(100% - 20px); 
+  }
+}
